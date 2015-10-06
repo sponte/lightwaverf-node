@@ -1,4 +1,4 @@
-var configuration = require('configuration');
+var configuration = require('./lib/configuration');
 
 module.exports = {
   getRooms: configuration.getRooms
